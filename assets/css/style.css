@@ -79,18 +79,19 @@ li:last-child {
     margin: 0 auto;
     position: relative;
     background-color: #ffffff;
-    padding: 30px;
     border: 1px solid #dddddd;
+    margin-bottom: 40px;
+    padding: 0 30px 30px 30px;
 }
 
 .content-header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     width: 100%;
-    height: 90px;
     float: left;
     border-bottom: 2px solid #dddddd;
     margin-bottom: 30px;
+    padding: 12px 0;
 
 }
 
@@ -112,10 +113,8 @@ li:last-child {
     min-width: 100%;
     height: 75px;
     float: left;
+    position: inherit;
     border-top: 5px solid #4aaaa5;
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
     text-align: center;
     color: #ffffff;
     padding-top: 27px;
@@ -141,6 +140,7 @@ input[type=submit] {
 .column {
     float: left;
     width: 50%;
+    position: relative;
 }
 
 .row:after {
@@ -149,10 +149,30 @@ input[type=submit] {
     clear: both;
 }
 
-#puppy1, #puppy2, #puppy3, #puppy4, #puppy5 {
+#puppy1, #puppy2, #puppy3, #puppy4 {
     width: 275px;
     height: 210px;
     margin-bottom: 30px;
+
+}
+
+#puppy5 {
+    width: 275px;
+    height: 210px;
+
+}
+
+h3 {
+    position: absolute;
+    bottom: 25px;
+    width: 275px;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    background-color: #4aaaa5;
 }
 
 
