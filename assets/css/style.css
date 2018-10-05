@@ -138,3 +138,22 @@ input[type=submit] {
     padding: 12px 20px;
 }
 
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#puppy1, #puppy2, #puppy3, #puppy4, #puppy5 {
+    width: 275px;
+    height: 210px;
+    margin-bottom: 30px;
+}
+
+
+
