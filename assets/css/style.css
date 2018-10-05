@@ -55,7 +55,6 @@ body {
     top: 0%;
 }
 
-
 li {
     float: left;
     border-right: 1px solid #777777;
@@ -105,6 +104,12 @@ li:last-child {
 #content {
     margin-bottom: 20px;
     line-height: 28px;
+}
+
+.skills {
+    float: none;
+    border: none;
+
 }
 
 .footer {
