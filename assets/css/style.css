@@ -39,8 +39,14 @@ body {
     position: relative;
 }
 
-.name {
+h1 {
+    font-size: 30px;
+    font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 25px;
+    padding-top: 30px;
+}
+.name {
     color: #ffffff;
     background-color: #4aaaa5;
     float: left;
@@ -48,8 +54,8 @@ body {
     position: absolute;
     top: 0%;
     left: 0%;
-    padding: 5px;
     width: 300px;
+    height: 90px;
 }
 
 
@@ -59,7 +65,7 @@ body {
     background-color: transparent;
     position: absolute;
     right: -14px;
-    top: 16px;
+    top: 35px;
 }
 
 li {
@@ -96,14 +102,14 @@ li:last-child {
 }
 
 .content-header {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     color: #4aaaa5;
     width: 100%;
     float: left;
     border-bottom: 2px solid #dddddd;
     margin-bottom: 30px;
-    padding: 12px 0;
     height: 100px;
+    padding-top: 8px;
 
 }
 
@@ -122,6 +128,8 @@ li:last-child {
 .skills {
     float: none;
     border: none;
+    list-style-type: circle;
+    margin-left: 30px;
 
 }
 
