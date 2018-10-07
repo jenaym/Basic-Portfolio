@@ -43,7 +43,6 @@ h1 {
     font-size: 30px;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-top: 25px;
     padding-top: 30px;
 }
 .name {
@@ -60,7 +59,7 @@ h1 {
 
 
 .NavBar {
-    color: #777777;
+    /* color: #777777; */
     list-style-type: none;
     background-color: transparent;
     position: absolute;
@@ -102,7 +101,6 @@ li:last-child {
 }
 
 .content-header {
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     color: #4aaaa5;
     width: 100%;
     float: left;
@@ -121,9 +119,9 @@ li:last-child {
 }
 
 #content {
-    margin-bottom: 20px;
     line-height: 28px;
 }
+
 
 .skills {
     float: none;
@@ -139,7 +137,6 @@ li:last-child {
     min-width: 100%;
     height: 66px;
     float: left;
-    position: inherit;
     border-top: 8px solid #4aaaa5;
     text-align: center;
     color: #ffffff;
@@ -160,14 +157,16 @@ input[type=text], select, textarea {
 input[type=submit] {
     background-color: #4aaaa5;
     color: #ffffff;
-    padding: 12px 20px;
     font-size: 16px;
+    width: 114px;
+    height:42px;
 }
 
 .column {
     float: left;
-    width: 50%;
     position: relative;
+    margin-right: 30px;
+    
 }
 
 .row:after {
@@ -180,13 +179,11 @@ input[type=submit] {
     width: 275px;
     height: 210px;
     margin-bottom: 30px;
-
 }
 
 #puppy5 {
     width: 275px;
     height: 210px;
-
 }
 
 
